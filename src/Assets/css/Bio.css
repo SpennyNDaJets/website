@@ -1,0 +1,34 @@
+.bioContainer {
+    background-color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bioTitle {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    color: #0a5175;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.bioTextContainer {
+    align-self: center;
+    color: black;
+    display: flex;
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-size: 1em;
+    width: 60vw;
+}
+
+.bioText {
+    line-height: 1.4;
+}
+
+.projectButtonContainer {
+    padding-bottom: 3em;
+}
