@@ -16,7 +16,7 @@ class FrontPage extends Component {
         </div>
         <div className="learnMoreButton">
           <Button
-            styleName="greyButton" 
+            styleName="whiteButton" 
             text="Learn More"
             reference="#bio"
           />

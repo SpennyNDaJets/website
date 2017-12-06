@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Route, withRouter } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import {
   Bio,
   Contact,
-  FrontPage
+  FrontPage,
+  ProjectPage
 } from './Components';
 
 class Routes extends Component {
@@ -13,6 +14,7 @@ class Routes extends Component {
       <div>
         <Route exact path="/" component={FrontPage} />
         <Route exact path="/" component={Bio} />
+        <Route exact path="/projects" component={ProjectPage} />
         <Route path="/" component={Contact} />
       </div>
     );
