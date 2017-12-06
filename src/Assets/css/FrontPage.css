@@ -1,0 +1,26 @@
+.landingContainer {
+    background-image: url('../Images/landingBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40em;
+    width: 100vw;
+}
+
+.nameContainer {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.profesionContainer {
+    font-size: 1em;
+    padding-bottom: 3em;
+}
+
+.learnMoreButton {
+    padding-bottom: 3em;
+}

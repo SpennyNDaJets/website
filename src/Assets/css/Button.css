@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 8px;
+}
+
+.whiteButton {
+  background-color: white;
+  color: black;
+}
+
+.whiteButton:hover {
+  box-shadow: 0px 0px 12px white;
+  cursor: pointer;
+}
+
+.blueButton {
+  background-color: #0a5175;
+  color: white;
+}
+
+.blueButton:hover {
+  box-shadow: 0px 0px 12px #0a5175;
+  cursor: pointer;
+}
