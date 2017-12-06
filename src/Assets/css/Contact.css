@@ -1,0 +1,33 @@
+.contactContainer {
+    background-color: #0a5175;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.contactMeLabel {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.contactIcons {
+    list-style-type: none;
+}
+
+.icon {
+    width: 6em;
+    height: 6em;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.iconElement {
+    display:inline;
+    padding-left: 2em;
+    padding-right: 2em;
+}

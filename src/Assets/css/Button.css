@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 8px;
+}
+
+.greyButton {
+  background-color: #c9c9c9;
+  color: black;
+}
+
+.greyButton:hover {
+  box-shadow: 0px 0px 12px black;
+  cursor: pointer;
+}
+
+.blueButton {
+  background-color: #0a5175;
+  color: white;
+}
+
+.blueButton:hover {
+  box-shadow: 0px 0px 12px #0a5175;
+  cursor: pointer;
+}
