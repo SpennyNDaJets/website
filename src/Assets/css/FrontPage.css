@@ -1,20 +1,18 @@
 .landingContainer {
     background-image: url('../Images/landingBackground.jpg');
-    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    color: #C9C9C9;
+    color: white;
     display: flex;
     flex-direction: column;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    height: 100vh;
+    justify-content: center;
+    height: 40em;
     width: 100vw;
 }
 
 .nameContainer {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
-    padding-top: 3em;
 }
 
 .profesionContainer {

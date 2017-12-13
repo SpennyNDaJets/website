@@ -1,0 +1,19 @@
+.navBar {
+  position: fixed;
+  background-color: #0a5175;
+  width: 100vw;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+}
+
+.navLink {
+  margin-right: 15px;
+}
+
+.navText {
+  color: white;
+}

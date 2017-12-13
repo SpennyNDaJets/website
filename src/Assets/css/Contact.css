@@ -1,25 +1,24 @@
 .contactContainer {
-    background-color: #0a5175;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    padding-top: 4em;
-    padding-bottom: 4em;
+  background-color: #0a5175;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .contactMeLabel {
     color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     margin-bottom: 1em;
 }
 .contactIcons {
     list-style-type: none;
-}
-
-.icon {
-    width: 6em;
-    height: 6em;
+    padding-bottom: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .icon:hover {
@@ -30,4 +29,24 @@
     display:inline;
     padding-left: 2em;
     padding-right: 2em;
+}
+
+.copyright {
+    color: white;
+    font-size: 0.75em;
+}
+
+@media (min-width: 800px) {
+  .icon {
+    width: 6em;
+    height: 6em;
+  }
+}
+
+@media (max-width: 800px) {
+  .icon {
+    max-width: 10vw;
+    max-height: 10vh;
+    margin-bottom: 2em;
+  }
 }
