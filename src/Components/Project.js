@@ -5,7 +5,6 @@ import '../Assets/css/Project.css';
 class Project extends Component {
 
   render() {
-    console.log(this.props);
     const { description, image, styleName, title } = this.props;
     const titleStyle = styleName + "ProjectTitle";
 

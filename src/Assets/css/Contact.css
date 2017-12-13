@@ -1,10 +1,10 @@
 .contactContainer {
-    background-color: #0a5175;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
+  background-color: #0a5175;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .contactMeLabel {
@@ -15,11 +15,10 @@
 .contactIcons {
     list-style-type: none;
     padding-bottom: 0.5em;
-}
-
-.icon {
-    width: 6em;
-    height: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .icon:hover {
@@ -35,4 +34,19 @@
 .copyright {
     color: white;
     font-size: 0.75em;
+}
+
+@media (min-width: 800px) {
+  .icon {
+    width: 6em;
+    height: 6em;
+  }
+}
+
+@media (max-width: 800px) {
+  .icon {
+    max-width: 10vw;
+    max-height: 10vh;
+    margin-bottom: 2em;
+  }
 }
